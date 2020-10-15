@@ -45,7 +45,6 @@
           - '/etc/localtime:/etc/localtime:ro'
           - '/opt/appdata/{{pgrole}}:/config'
           - '{{path.stdout}}:{{path.stdout}}'
-          - '/mnt'
           - 'DB_VENDOR: POSTGRES'
           - 'DB_ADDR: postgres'
           - 'DB_DATABASE: keycloak'
