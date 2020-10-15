@@ -43,7 +43,6 @@
       set_fact:
         pg_volumes:
           - '/etc/localtime:/etc/localtime:ro'
-          - '/opt/appdata/keycloak:/config'
           - '{{path.stdout}}:{{path.stdout}}'
           - 'DB_VENDOR: POSTGRES'
           - 'DB_ADDR: postgres'
