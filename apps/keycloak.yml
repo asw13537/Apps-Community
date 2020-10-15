@@ -51,14 +51,14 @@
         pg_env:
           PUID: '1000'
           PGID: '1000'
-          DB_VENDOR:'POSTGRES'
-          DB_ADDR:'postgres'
-          DB_DATABASE:keycloak'
-          DB_USER:'keycloak'
-          DB_SCHEMA:'public'
-          DB_PASSWORD:iloveliverpool'
-          KEYCLOAK_USER:admin'
-          KEYCLOAK_PASSWORD:admin'
+          DB_VENDOR: 'POSTGRES'
+          DB_ADDR: 'postgres'
+          DB_DATABASE: 'keycloak'
+          DB_USER: 'keycloak'
+          DB_SCHEMA: 'public'
+          DB_PASSWORD: 'iloveliverpool'
+          KEYCLOAK_USER: 'admin'
+          KEYCLOAK_PASSWORD: 'admin'
 
     # MAIN DEPLOYMENT #############################################################
     - name: 'Deploying {{pgrole}}'
