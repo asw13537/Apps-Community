@@ -41,6 +41,7 @@
         pg_env:
           PUID: '1000'
           PGID: '1000'
+          ADMIN_TOKEN: '151019772643'
 
     # MAIN DEPLOYMENT #############################################################
     - name: 'Deploying {{pgrole}}'
